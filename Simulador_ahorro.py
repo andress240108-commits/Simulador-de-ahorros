@@ -4,7 +4,7 @@
 #importar librerias
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 st.title("💰 Simulador de Ahorro e Inversión")
 st.markdown("""
@@ -34,4 +34,5 @@ df = pd.DataFrame({
 
 st.line_chart(df.set_index("Mes"))
 st.write(f"💼 Capital acumulado al final de {years} años: {capital[-1]:,.2f} DOP")
+
 
