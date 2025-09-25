@@ -1,0 +1,7 @@
+streamlit
+matplotlib
+pandas
+
+git add requirements.txt
+git commit -m "Agrego requirements.txt con dependencias"
+git push origin main
